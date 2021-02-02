@@ -165,3 +165,14 @@ footer{
 .footer{
   color: #fff;
 }
+
+@media screen and (max-width:786px) {
+  .content{
+    flex-flow: column;
+    margin: auto;
+  }
+
+  .card{
+    margin: auto;
+  }
+}
